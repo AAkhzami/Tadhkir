@@ -1,0 +1,10 @@
+C:\Users\justa\OneDrive\Desktop\Programming\C#\Projects\Tadhkir\bin\Debug\Tadhkir.exe.config
+C:\Users\justa\OneDrive\Desktop\Programming\C#\Projects\Tadhkir\bin\Debug\Tadhkir.exe
+C:\Users\justa\OneDrive\Desktop\Programming\C#\Projects\Tadhkir\bin\Debug\Tadhkir.pdb
+C:\Users\justa\OneDrive\Desktop\Programming\C#\Projects\Tadhkir\obj\Debug\Tadhkir.csproj.AssemblyReference.cache
+C:\Users\justa\OneDrive\Desktop\Programming\C#\Projects\Tadhkir\obj\Debug\Tadhkir.Form1.resources
+C:\Users\justa\OneDrive\Desktop\Programming\C#\Projects\Tadhkir\obj\Debug\Tadhkir.Properties.Resources.resources
+C:\Users\justa\OneDrive\Desktop\Programming\C#\Projects\Tadhkir\obj\Debug\Tadhkir.csproj.GenerateResource.cache
+C:\Users\justa\OneDrive\Desktop\Programming\C#\Projects\Tadhkir\obj\Debug\Tadhkir.csproj.CoreCompileInputs.cache
+C:\Users\justa\OneDrive\Desktop\Programming\C#\Projects\Tadhkir\obj\Debug\Tadhkir.exe
+C:\Users\justa\OneDrive\Desktop\Programming\C#\Projects\Tadhkir\obj\Debug\Tadhkir.pdb
