@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Tadhkir.Properties;
 
 namespace Tadhkir
 {
@@ -21,6 +22,9 @@ namespace Tadhkir
         {
             CheckTimeSet();
             timer1.Start();
+            btnStop.Enabled = true;
+            btnStart.Enabled = false;
+            pictureBox1.Image = Resources.play_button;
         }
 
         void CheckTimeSet()
@@ -30,12 +34,16 @@ namespace Tadhkir
             int result = Min + second;
 
             timer1.Interval = result;
-            timer1.Start();
         }
         private void Form1_Load(object sender, EventArgs e)
         {
             CheckTimeSet();
             timer1.Stop();
+
+            btnStop.Enabled = false;
+            btnStart.Enabled = true;
+
+
             notifyIcon1.Visible = true;
             notifyIcon1.Icon = SystemIcons.Information;
         }
@@ -89,7 +97,22 @@ namespace Tadhkir
         private void btnStop_Click(object sender, EventArgs e)
         {
             timer1.Stop();
+            btnStop.Enabled = false;
+            btnStart.Enabled = true;
+            pictureBox1.Image = Resources.pause_button;
+
         }
 
+        private void nudMinute_ValueChanged(object sender, EventArgs e)
+        {
+            if (!btnStart.Enabled)
+                CheckTimeSet();
+        }
+
+        private void nudSecond_ValueChanged(object sender, EventArgs e)
+        {
+            if (!btnStart.Enabled)
+                CheckTimeSet();
+        }
     }
 }
